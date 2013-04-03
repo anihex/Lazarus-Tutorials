@@ -1,0 +1,15 @@
+object MainForm: TMainForm
+  Left = 554
+  Height = 480
+  Top = 157
+  Width = 640
+  BorderIcons = [biMinimize]
+  BorderStyle = bsSizeToolWin
+  Caption = 'anihex''s SameGame'
+  OnCreate = FormCreate
+  OnMouseUp = FormMouseUp
+  OnPaint = FormPaint
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.0.8.0'
+end
